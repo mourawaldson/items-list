@@ -7,6 +7,7 @@ date_default_timezone_set("America/Recife");
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
 	<link href="css/screen.css" rel="stylesheet" type="text/css" />
 	<title>Items</title>
 </head>
