@@ -1,0 +1,7 @@
+CREATE DATABASE `items_list` DEFAULT CHARACTER SET `utf8`;
+
+CREATE TABLE IF NOT EXISTS `list` (
+	`id` int(11) NOT NULL AUTO_INCREMENT,
+	`description` text,
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=UTF8;

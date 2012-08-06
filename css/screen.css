@@ -1,0 +1,68 @@
+@media print{
+	div#header-options, div#msg, table tr td.options {
+		display:none;
+	}
+	table tr td.desc {
+		border-right:1px solid #000;
+	}
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Verdana;
+	text-align:center;
+	font-size:13px;
+}
+
+form#frm{
+	width:130px;
+}
+
+a:visited,a:active,a:link{
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+table.list tr td{
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-bottom:1px solid #000;
+	padding:2px;
+	text-align:center;
+}
+
+table tr td.id {
+	min-width:40px;
+}
+
+table tr td.description {
+	min-width:200px;
+}
+
+table tr td.options {
+	min-width:60px;
+	border-right:1px solid #000;
+}
+
+table tr td.none {
+	border-top:none;
+}
+
+table tr td.msg {
+	border:none;
+}
+
+input.btn {
+	width:80px;
+	height:22px;
+	text-transform:capitalize;
+}
